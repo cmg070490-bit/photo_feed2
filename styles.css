@@ -1,47 +1,79 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
-.card {
-    background-color: #f9f4ed;
-    border-radius: 20px;
-    border-style: solid;
-    width: 380px;
-    height: 480px;
-    padding: 10px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    box-shadow: 5px 5px 5px black;
+.post {
+    background-color: white;
+    width: 470px;
+    margin: 80px auto;
+    border: 1px solid #ccc;
 }
 
-img {
+i {
+    font-size: 0px;
+}
+
+.fa-ellipsis-vertical {
+    font-size: 20px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+.post-title h1 {
+    font-size: 20px;
+}
+
+.post-title p {
+    font-size: 14px;
+}
+
+.number {
+    margin-left: auto;
+}
+
+.post-img img {
     width: 100%;
-    border-radius: 15px;
-    border-style: dashed;
-    border-color: black;
-    border-width: 1px;
+    display: block;
 }
 
+.post-footer {
+    padding: 15px;
+    display: flex;
+}
 
-.buttonic {
-    background-color: #0000ff;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    color: white;
-    padding: 10px;
-    width: 30%;
-    text-align: center;
-    justify-content: center;
-    text-decoration: none;
+.post-footer-text {
+    padding: 15px;
+}
+
+i {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+i:hover {
+    opacity: 0.7;
+}
+
+.bi-heart:hover {
+    color: red;
+}
+
+.bi-chat:hover {
+    color: #555;
+}
+
+.bi-bookmark:hover {
+    color: gold;
+}
+
+.bi-bookmark {
+    margin-left: auto;
+    margin-left: 900%;
 }
